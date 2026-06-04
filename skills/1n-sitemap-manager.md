@@ -71,7 +71,7 @@ Fetch the sitemap XML. For sitemap index files, fetch and check each referenced 
 **SaaS / Software company (like [Your Brand]):**
 Priority pages to include:
 1. Homepage
-2. All product/feature landing pages (`/mobile-app-testing/`, `/real-device-testing/`, etc.)
+2. All product/feature landing pages (`/your-core-product/`, `/your-feature-page/`, etc.)
 3. All blog posts (`/blogs/*`)
 4. Documentation pages (`/docs/*`)
 5. Integration pages (`/integrations/*`)

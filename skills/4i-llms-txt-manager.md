@@ -70,7 +70,7 @@ If no llms.txt exists: build from scratch.
 
 **Tier 1 — Must include (product + identity):**
 - Homepage
-- Key product pages (mobile-application-testing-tool, real-device-testing, selenium-automation-cloud)
+- Key product pages (your-core-product, your-feature-page, your-integration-page)
 - Pricing page
 - About/company page
 - Documentation index (/docs/)
@@ -112,16 +112,16 @@ Standard format:
 - [Homepage]: https://www.yourdomain.com
   [Your Brand]'s main product page — real device testing platform overview, AI testing agents, pricing.
 
-- [Mobile App Testing]: https://www.yourdomain.com/mobile-application-testing-tool/
+- [Mobile App Testing]: https://www.yourdomain.com/your-core-product/
   Comprehensive mobile app testing on real Android and iOS devices. Supports Appium, Espresso, XCUITest, Selenium, Playwright.
 
-- [Real Device Testing]: https://www.yourdomain.com/real-device-testing/
+- [Real Device Testing]: https://www.yourdomain.com/your-feature-page/
   Cloud-based real device farm with 5,000+ device combinations. No emulators — actual physical devices.
 
-- [Selenium Cloud]: https://www.yourdomain.com/selenium-automation-cloud/
+- [Selenium Cloud]: https://www.yourdomain.com/your-integration-page/
   Run Selenium WebDriver tests on 3,000+ browser/OS combinations. Parallel execution, CI/CD integration.
 
-- [Appium Testing]: https://www.yourdomain.com/run-appium-tests-for-android-and-ios/
+- [Appium Testing]: https://www.yourdomain.com/your-use-case-page/
   Appium test execution on real Android and iOS devices. Supports Appium 2.x.
 
 - [Pricing]: https://www.yourdomain.com/pricing/
@@ -130,7 +130,7 @@ Standard format:
 - [Documentation]: https://www.yourdomain.com/docs/
   Complete documentation for all [Your Brand] features, integrations, and APIs.
 
-- [MCP Server]: https://www.yourdomain.com/docs/mcp-server/
+- [MCP Server]: https://www.yourdomain.com/docs/your-integration/
   [Your Brand] MCP server for AI-powered test orchestration — Claude, Copilot integration.
 
 - [iOS Emulators Guide]: https://www.yourdomain.com/blogs/ios-emulators-for-pcs/

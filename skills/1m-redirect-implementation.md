@@ -33,14 +33,14 @@ The blog pruning analysis (Task 16, Jan 2026) identified:
 Redirect targets from the analysis:
 | Content Type | Redirect Target |
 |-------------|----------------|
-| Selenium content | `/selenium-automation-cloud/` |
-| Appium content | `/run-appium-tests-for-android-and-ios/` |
+| Selenium content | `/your-integration-page/` |
+| Appium content | `/your-use-case-page/` |
 | Data center content | `/data-center/` |
 | Device content | `/list-of-real-devices/` |
 | Integration content | `/integrations/` |
 | Enterprise features | `/enterprise/` |
 | News/announcements | `/news/` |
-| General testing | `/real-device-testing/` or `/mobile-application-testing-tool/` |
+| General testing | `/your-feature-page/` or `/your-core-product/` |
 
 ---
 
@@ -82,8 +82,8 @@ RewriteEngine On
 Redirect 301 /blogs/[slug] https://www.yourdomain.com/[target]
 
 # 189 Category Redirects (grouped by target)
-# Selenium → /selenium-automation-cloud/
-Redirect 301 /blogs/[slug] https://www.yourdomain.com/selenium-automation-cloud/
+# Selenium → /your-integration-page/
+Redirect 301 /blogs/[slug] https://www.yourdomain.com/your-integration-page/
 ```
 
 **Placement:** Add BEFORE `# BEGIN WordPress` in .htaccess.

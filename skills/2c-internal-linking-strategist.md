@@ -37,10 +37,10 @@ rank higher — all else equal. Most sites leak equity to low-value pages
 (tag pages, thin posts, author archives) while commercial pages starve.
 
 For [Your Brand], commercial priority pages include:
-- `/mobile-application-testing-tool/`
-- `/real-device-testing/`
-- `/selenium-automation-cloud/`
-- `/run-appium-tests-for-android-and-ios/`
+- `/your-core-product/`
+- `/your-feature-page/`
+- `/your-integration-page/`
+- `/your-use-case-page/`
 - `/pricing/`
 
 ---
