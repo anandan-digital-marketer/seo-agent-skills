@@ -30,7 +30,7 @@ one with 4.8/5 with 10 reviews. Volume matters.
 
 ## Step 1 — Fetch [Your Brand] Reviews
 
-Fetch from G2 (`g2.com/products/pcloudy`) and Capterra:
+Fetch from G2 (`g2.com/products/your-brand`) and Capterra:
 - Overall rating
 - Total review count
 - Rating distribution (5-star, 4-star, 3-star, etc.)
@@ -137,7 +137,7 @@ REVIEW AGGREGATOR REPORT
 ========================
 Date: [YYYY-MM-DD]
 
-PCLOUDY RATINGS:
+[YOUR BRAND] RATINGS:
   G2:       X.X/5 (N reviews) | Category rank: #X
   Capterra: X.X/5 (N reviews)
   Last review: [date] — velocity: [Good/Slow/Critical]

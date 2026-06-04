@@ -117,11 +117,11 @@ Search for [Your Brand] mentions across authority sites:
 
 | Category | Search Query |
 |----------|-------------|
-| Tech media | `"pcloudy" site:techcrunch.com OR site:venturebeat.com OR site:infoq.com` |
-| Industry analysts | `"pcloudy" site:gartner.com OR site:forrester.com` |
-| Developer sites | `"pcloudy" site:dev.to OR site:medium.com OR site:dzone.com` |
-| Testing communities | `"pcloudy" site:testingwhiz.com OR site:ministryoftesting.com` |
-| News | `"pcloudy" after:2025-01-01` (recent coverage) |
+| Tech media | `"[your-brand]" site:techcrunch.com OR site:venturebeat.com OR site:infoq.com` |
+| Industry analysts | `"[your-brand]" site:gartner.com OR site:forrester.com` |
+| Developer sites | `"[your-brand]" site:dev.to OR site:medium.com OR site:dzone.com` |
+| Testing communities | `"[your-brand]" site:testingwhiz.com OR site:ministryoftesting.com` |
+| News | `"[your-brand]" after:2025-01-01` (recent coverage) |
 
 **For each mention found:**
 - Is it positive, neutral, or negative?
@@ -140,12 +140,12 @@ profiles belong to the brand. Check yourdomain.com for Organization schema
 **Required sameAs entries:**
 ```json
 "sameAs": [
-  "https://www.linkedin.com/company/pcloudy",
-  "https://twitter.com/pcloudy",
-  "https://github.com/pcloudy",
-  "https://www.g2.com/products/pcloudy",
-  "https://www.capterra.com/p/[id]/pcloudy",
-  "https://www.crunchbase.com/organization/pcloudy",
+  "https://www.linkedin.com/company/your-brand",
+  "https://twitter.com/your-brand",
+  "https://github.com/your-brand",
+  "https://www.g2.com/products/your-brand",
+  "https://www.capterra.com/p/[id]/your-brand",
+  "https://www.crunchbase.com/organization/your-brand",
   "https://en.wikipedia.org/wiki/[Your Brand]"
 ]
 ```

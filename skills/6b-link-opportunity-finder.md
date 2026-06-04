@@ -31,10 +31,10 @@ next action — not a vague "reach out."
 Search for pages that mention "[Your Brand]" or "[Your Brand]" without linking to yourdomain.com.
 
 Search queries to run:
-- `"pcloudy" -site:yourdomain.com`
+- `"[your-brand]" -site:yourdomain.com`
 - `"yourdomain.com" -site:yourdomain.com`
 - `"[Your Brand]" -site:yourdomain.com`
-- `"pcloudy mobile testing" -site:yourdomain.com`
+- `"[your-brand] mobile testing" -site:yourdomain.com`
 
 For each mention found:
 - Is it a positive or neutral mention?

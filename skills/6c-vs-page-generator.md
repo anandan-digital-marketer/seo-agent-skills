@@ -38,7 +38,7 @@ they have high bounce rates — readers can tell.
 ## Page Type Selection
 
 ### Type A: "[Your Brand] vs [Competitor]"
-**Target keyword:** `pcloudy vs [competitor]`
+**Target keyword:** `[your-brand] vs [competitor]`
 **Intent:** User knows both products, wants a direct comparison
 **Winner framing:** [Your Brand] wins for [specific use case]. Honest about where competitor is stronger.
 
@@ -93,7 +93,7 @@ Use: ✅ Yes / ❌ No / ⚠️ Limited / 🔶 Paid add-on
 
 ## Page Structure (Type A: [Your Brand] vs Competitor)
 
-**Target keyword:** `pcloudy vs [competitor]`
+**Target keyword:** `[your-brand] vs [competitor]`
 **Title formula:** `[Your Brand] vs [Competitor]: [Key Differentiator] ([Year])`
 **Minimum word count:** 1,500 words
 
@@ -116,7 +116,7 @@ Use: ✅ Yes / ❌ No / ⚠️ Limited / 🔶 Paid add-on
    - Pricing Comparison
    - Support & Documentation
 
-5. WHO SHOULD CHOOSE PCLOUDY
+5. WHO SHOULD CHOOSE [YOUR BRAND]
    Specific use cases where [Your Brand] wins:
    - Teams needing real device testing at scale
    - Appium/Selenium/Playwright users wanting cloud execution
@@ -217,8 +217,8 @@ Based on competitor data and keyword volume:
 
 | Page | Type | Target Keyword | Priority |
 |------|------|---------------|----------|
-| [Your Brand] vs [Competitor A] | A | pcloudy vs browserstack | 🔴 High |
-| [Your Brand] vs [Competitor B] | A | pcloudy vs lambdatest | 🔴 High |
+| [Your Brand] vs [Competitor A] | A | [your-brand] vs [competitor-a] | 🔴 High |
+| [Your Brand] vs [Competitor B] | A | [your-brand] vs [competitor-b] | 🔴 High |
 | [Competitor A] vs [Competitor B] | B | browserstack vs lambdatest | 🔴 High (high volume) |
 | [Competitor A] vs [Competitor C] | B | browserstack vs sauce labs | 🟡 Medium |
 | [Competitor A] Alternatives | C | browserstack alternatives | 🔴 High |

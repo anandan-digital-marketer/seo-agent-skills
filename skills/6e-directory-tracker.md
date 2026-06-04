@@ -35,13 +35,13 @@ Check each by fetching the URL and verifying [Your Brand]'s presence:
 
 | Directory | URL to Check | Why Critical |
 |-----------|-------------|-------------|
-| G2 | g2.com/products/pcloudy | #1 B2B software review site. LLMs cite G2 constantly. |
-| Capterra | capterra.com/p/[id]/pcloudy | Google-owned. Feeds AI Overviews. |
+| G2 | g2.com/products/your-brand | #1 B2B software review site. LLMs cite G2 constantly. |
+| Capterra | capterra.com/p/[id]/your-brand | Google-owned. Feeds AI Overviews. |
 | GetApp | getapp.com/testing-tools-software/... | Capterra sister site — same reach. |
 | Software Advice | softwareadvice.com | Gartner-owned. Enterprise credibility. |
 | Trustradius | trustradius.com | B2B reviews, high DA, LLM-cited. |
-| AlternativeTo | alternativeto.net/software/pcloudy | "X alternative" queries — directly feeds LLM recommendations. |
-| Product Hunt | producthunt.com/posts/pcloudy | Developer audience. LLMs recognise it. |
+| AlternativeTo | alternativeto.net/software/your-brand | "X alternative" queries — directly feeds LLM recommendations. |
+| Product Hunt | producthunt.com/posts/your-brand | Developer audience. LLMs recognise it. |
 | Slashdot | slashdot.org | Tech community credibility. |
 
 **For each Tier 1 directory:**

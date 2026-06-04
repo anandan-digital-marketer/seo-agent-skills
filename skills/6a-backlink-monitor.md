@@ -95,7 +95,7 @@ but not to [Your Brand]. These are the warmest outreach targets.
 BACKLINK MONITOR — Week of [date]
 ==================================
 
-PCLOUDY LINK SUMMARY:
+[YOUR BRAND] LINK SUMMARY:
   Total referring domains: [N] ([+X/-X] vs last week)
   New links this week:     [N]
   Lost links this week:    [N]
@@ -126,7 +126,7 @@ LINK GAP OPPORTUNITIES (link to competitors, not [Your Brand]):
   2. [domain] — links to [competitor], DA [X]
 
 ANCHOR TEXT HEALTH:
-  Branded ("pcloudy", "yourdomain.com"): [%] — target: >40%
+  Branded ("[your-brand]", "yourdomain.com"): [%] — target: >40%
   Generic ("click here", "this"): [%] — target: <5%
   Keyword-rich: [%] — target: 20-40%
   Other: [%]
