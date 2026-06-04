@@ -15,28 +15,39 @@
 npx skills add anandan-digital-marketer/seo-agent-skills
 ```
 
-**Install alongside Corey Haines' marketing pack for a complete AI marketing + SEO team:**
-
-```bash
-npx skills add coreyhaines31/marketingskills        # CRO, copy, email, ads
-npx skills add anandan-digital-marketer/seo-agent-skills  # SEO, GEO, LLM visibility
-```
+Skills install to `.agents/skills/` and auto-symlink to Claude Code, Cursor, and Codex.
 
 ---
 
 ## What Makes This Different
 
 Most Claude Code + SEO setups rely on CSV exports and static prompts.
-These skills are designed for **live data** — they pull from GSC, GA4, Semrush,
+These skills are built for **live data** — connecting directly to GSC, GA4, Semrush,
 and rank history via MCP servers. No manual exports. No copy-paste.
 
-| Feature | Others | This pack |
-|---------|--------|-----------|
-| Live GSC / GA4 data | Manual CSV | MCP server integration |
-| LLM / GEO visibility | Not covered | 3 dedicated skills |
-| Nervous system automation | Not covered | Watchdog + feedback loop patterns |
-| Backlink + authority | Generic | Full 7-skill authority track |
-| Feedback loop | Not covered | Outcome measurement built in |
+| Capability | Standard approach | This pack |
+|-----------|------------------|-----------|
+| SEO data | Manual CSV export | Live MCP — GSC + GA4 + Semrush |
+| LLM / GEO visibility | Not covered | 3 dedicated skills (AEO, llms.txt, crawler audit) |
+| Feedback loop | Not covered | Outcome tracking — measures if fixes worked |
+| Authority building | Generic | Full 7-skill track (backlinks, entity, reviews, VS pages) |
+| Nervous system | Not covered | Watchdog + action executor patterns included |
+
+---
+
+## What's Covered — All 9 Functions
+
+```
+Strategy      → keyword scoring, SERP analysis, competitor intel, topical clusters
+Content       → content briefs, meta optimization, internal linking, freshness audit
+Technical SEO → page scoring, schema generation, redirects, sitemap management
+LLM / GEO     → answer engine optimization, llms.txt, AI crawler audit
+Analytics     → rank tracking, competitor traffic, live GSC/GA4 via MCP
+Authority     → backlink monitoring, link prospecting, VS pages, entity building
+CRM / Leads   → lead enrichment, ICP scoring, outreach angles
+Social        → content repurposing, post performance tracking
+Direction     → weekly director — orchestrates all agents, prioritizes actions
+```
 
 ---
 
@@ -111,32 +122,28 @@ and rank history via MCP servers. No manual exports. No copy-paste.
 
 ## Setup
 
-### 1. Install skills
+### 1. Install
 
 ```bash
 npx skills add anandan-digital-marketer/seo-agent-skills
 ```
 
-Skills install to `.agents/skills/` and auto-symlink to Claude Code.
-
 ### 2. Add brand context
 
 Create `.agents/product-marketing.md` with your brand details.
-All 29 skills auto-read this file before executing — no extra config needed.
+All 29 skills auto-read this file before executing — zero extra config needed.
 
 A template is included in `templates/product-marketing-template.md`.
 
-**Key sections to fill in:**
-- What your product/service is (one-sentence LLM definition)
+**Fill in:**
+- What your product/service is (one-sentence definition)
 - ICP — who buys it, their pain points
 - Key differentiators vs competitors
-- Tone of voice
+- Tone of voice + brand rules
 - Key URLs + CTAs
-- Current metrics
+- Current business metrics
 
-### 3. Connect live data (optional but recommended)
-
-Skills are designed for MCP integration. For full capability:
+### 3. Connect live data (optional — unlocks full capability)
 
 ```json
 // .claude/settings.json
@@ -144,50 +151,30 @@ Skills are designed for MCP integration. For full capability:
   "mcpServers": {
     "gsc-server": { ... },   // Google Search Console — live keyword data
     "ga4-server": { ... },   // Google Analytics 4 — traffic data
-    "semrush": { ... }       // Semrush — competitor data
+    "semrush": { ... }       // Semrush — competitor intelligence
   }
 }
 ```
 
-See `templates/mcp-setup-guide.md` for configuration details.
+See `templates/mcp-setup-guide.md` for full configuration.
 
 ---
 
 ## Usage
 
-Once installed, invoke skills naturally in Claude Code:
+Invoke skills naturally in Claude Code:
 
 ```
-"Audit this page for SEO" → 1b-single-page-scorer
-"Write a content brief for [keyword]" → 2a-content-brief-generator
-"Analyze what ranks for this keyword" → 3c-serp-analysis
-"Optimize this page for LLM citations" → 4h-answer-engine-optimizer
-"Find link building opportunities" → 6b-link-opportunity-finder
-"Build a VS page for [competitor]" → 6c-vs-page-generator
+"Audit this page for SEO"               → 1b-single-page-scorer
+"Write a content brief for [keyword]"   → 2a-content-brief-generator
+"Analyze what ranks for this keyword"   → 3c-serp-analysis
+"Optimize this page for LLM citations"  → 4h-answer-engine-optimizer
+"Find link building opportunities"      → 6b-link-opportunity-finder
+"Build a VS page for [competitor]"      → 6c-vs-page-generator
+"What should I focus on this week?"     → seo-director
 ```
 
 Or invoke directly: `/seo-director`, `/3c-serp-analysis`, `/4h-answer-engine-optimizer`
-
----
-
-## Pair With Marketing Skills
-
-This pack handles SEO + LLM visibility.
-[coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) handles CRO, copywriting, email, ads.
-
-Together they cover every marketing function:
-
-```
-Strategy   → 3b, 3c, 3f (this pack) + marketing-plan (Corey's)
-Content    → 2a, 2b, 2c (this pack) + copywriting, emails (Corey's)
-Technical  → 1b, 1d, 1m, 1n (this pack)
-LLM / GEO  → 4h, 4i, 4j (this pack) + ai-seo (Corey's)
-Analytics  → 5i, 5j (this pack) + analytics (Corey's)
-Authority  → 6a-6g (this pack)
-Social     → 8d, 8e (this pack) + social (Corey's)
-CRM        → 7d (this pack)
-CRO        → cro, signup, onboarding (Corey's)
-```
 
 ---
 
